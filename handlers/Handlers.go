@@ -8,12 +8,14 @@ import (
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
+
+	//Mock Data TODO:Replace
 	page := Page{ID: 7, Name: "Kullanıcılar", Description: "Kullanıcı Listesi", URI: "/users"}
+
 	users := LoadUsers()
 	interests := LoadInterests()
 	interestMappings := LoadInterestMapping()
 	var newUsers []User
-
 	for _, user := range users {
 		for _, interestMapping := range interestMappings {
 			if user.ID == interestMapping.UserID {
