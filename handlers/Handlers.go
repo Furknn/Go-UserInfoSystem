@@ -16,6 +16,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	interests := LoadInterests()
 	interestMappings := LoadInterestMapping()
 	var newUsers []User
+
 	for _, user := range users {
 		for _, interestMapping := range interestMappings {
 			if user.ID == interestMapping.UserID {
@@ -28,6 +29,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		}
 		newUsers = append(newUsers, user)
 	}
+
 	viewModel := UserViewModel{Page: page, Users: newUsers}
 	data, _ := json.Marshal(viewModel)
 	w.Write([]byte(data))

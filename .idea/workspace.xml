@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e2ae20-688e-481e-9b99-eebd7cb723a0" name="Default Changelist" comment="Initial Commit">
+    <list default="true" id="e6e2ae20-688e-481e-9b99-eebd7cb723a0" name="Default Changelist" comment="Fixed dataloaders.go">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataloaders/dataloaders.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataloaders/dataloaders.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/Handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/Handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,29 +75,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Fixed dataloaders.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed dataloaders.go" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1602793070629">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1602796760003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602793070629" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1602793070629">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602796760003" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1602796760003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602793070629" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1602793070629">
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602796760003" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1602796760003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602793070629" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1602793070629">
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602796760003" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1602796760003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602793070629" />
-    <state x="781" y="506" key="Vcs.Push.Dialog.v2" timestamp="1602705174128">
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602796760003" />
+    <state x="781" y="506" key="Vcs.Push.Dialog.v2" timestamp="1602802524024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="781" y="506" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602705174128" />
+    <state x="781" y="506" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602802524024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

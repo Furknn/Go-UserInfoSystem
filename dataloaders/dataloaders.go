@@ -12,12 +12,14 @@ func LoadUsers() []User {
 	json.Unmarshal([]byte(bytes), &data)
 	return data
 }
+
 func LoadInterests() []Interest {
 	bytes, _ := ReadFile("./json/interests.json")
 	var data []Interest
 	json.Unmarshal([]byte(bytes), &data)
 	return data
 }
+
 func LoadInterestMapping() []InterestMapping {
 	bytes, _ := ReadFile("./json/userInterestMappings.json")
 	var data []InterestMapping
